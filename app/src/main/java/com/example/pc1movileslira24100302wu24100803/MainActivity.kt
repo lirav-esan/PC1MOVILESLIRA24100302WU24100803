@@ -22,6 +22,8 @@ class MainActivity : ComponentActivity() {
             PC1MOVILESLIRA24100302WU24100803Theme {
                 AppNavGraph()
             }
+            // 24100302 - Fabriccio Alonso Lira Vera
+            // 24100803 - Andres Alfredo Wu Solano
         }
     }
 }

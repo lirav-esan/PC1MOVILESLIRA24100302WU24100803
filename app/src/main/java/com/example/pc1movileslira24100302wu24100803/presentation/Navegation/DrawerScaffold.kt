@@ -13,7 +13,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import kotlinx.coroutines.launch
-
+// Andres Alfredo Wu Solano - 24100803
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun DrawerScaffold(
@@ -83,7 +83,7 @@ fun DrawerScaffold(
         Scaffold(
             topBar = {
                 TopAppBar(
-                    title = { Text("UESAN App - PC1 Moviles 24100302 y 24100803") },
+                    title = { Text("Travel Companion App") },
                     navigationIcon = {
                         IconButton(
                             onClick = {
