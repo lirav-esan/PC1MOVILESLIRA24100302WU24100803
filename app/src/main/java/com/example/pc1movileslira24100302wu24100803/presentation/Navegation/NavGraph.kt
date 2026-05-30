@@ -13,27 +13,21 @@ import com.example.pc1movileslira24100302wu24100803.presentation.PlanificacionPr
 fun AppNavGraph() {
     val navController = rememberNavController()
 
-    NavHost(
-        navController = navController,
-        startDestination = "equipaje"
-    ) {
-        composable("equipaje") {
-            DrawerScaffold(navController) {
+    DrawerScaffold(navController = navController) {
+        NavHost(
+            navController = navController,
+            startDestination = "equipaje"
+        ) {
+            composable("equipaje") {
                 CalcularEquipajeScreen()
             }
-        }
-        composable("presupuesto") {
-            DrawerScaffold(navController) {
+            composable("presupuesto") {
                 PlanificarPresupuestoDeViajeScreen()
             }
-        }
-        composable("catalogo") {
-            DrawerScaffold(navController) {
+            composable("catalogo") {
                 CatalogDestinosScreen()
             }
-        }
-        composable("asistencia") {
-            DrawerScaffold(navController) {
+            composable("asistencia") {
                 AsistenciaViajeScreen()
             }
         }
