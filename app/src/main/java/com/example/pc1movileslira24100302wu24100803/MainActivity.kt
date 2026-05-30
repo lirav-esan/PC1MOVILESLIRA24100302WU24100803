@@ -11,8 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.example.pc1movileslira24100302wu24100803.presentation.AsistenciaViaje.AsistenciaViajeScreen
-import com.example.pc1movileslira24100302wu24100803.presentation.CatalogDestinos.CatalogDestinosScreen
+import com.example.pc1movileslira24100302wu24100803.presentation.Navegation.AppNavGraph
 import com.example.pc1movileslira24100302wu24100803.ui.theme.PC1MOVILESLIRA24100302WU24100803Theme
 
 class MainActivity : ComponentActivity() {
@@ -21,9 +20,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             PC1MOVILESLIRA24100302WU24100803Theme {
-
-                AsistenciaViajeScreen()
-
+                AppNavGraph()
             }
         }
     }
