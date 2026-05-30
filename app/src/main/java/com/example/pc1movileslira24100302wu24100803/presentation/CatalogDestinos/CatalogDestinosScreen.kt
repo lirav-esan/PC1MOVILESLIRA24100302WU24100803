@@ -15,7 +15,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
-
+// Fabriccio Alonso Lira Vera - 24100302
 @Composable
 fun CatalogDestinosScreen() {
     val destinations = listOf(

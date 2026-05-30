@@ -22,6 +22,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 
 @Composable
+// Fabriccio Alonso Lira Vera - 24100302
 fun AsistenciaViajeScreen() {
     var permissionStatus by remember { mutableStateOf("Permiso pendiente de solicitud") }
 

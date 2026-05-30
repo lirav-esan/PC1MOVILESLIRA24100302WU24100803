@@ -12,6 +12,7 @@ import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 
+// Fabriccio Alonso Lira Vera - 24100302
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun PlanificarPresupuestoDeViajeScreen() {

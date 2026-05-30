@@ -13,6 +13,7 @@ import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 
+// Andres Alfredo Wu Solano - 24100803
 @Composable
 fun CalcularEquipajeScreen() {
     var pesoInput by remember { mutableStateOf("") }
